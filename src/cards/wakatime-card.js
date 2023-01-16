@@ -285,7 +285,7 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
               // @ts-ignore
               progressBarColor: titleColor,
               // @ts-ignore
-              progressBarBackgroundColor: textColor,
+              progressBarBackgroundColor: bgColor,
               hideProgress: hide_progress,
             });
           })
